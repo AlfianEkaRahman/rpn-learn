@@ -1,6 +1,6 @@
 // Proxytia
 let name = "Alfian";
-let peran = "Tabib";
+let peran = "Ksatria";
 
 if(peran == "Ksatria") {
     console.log(`halo ${peran} ${name} , kamu dapat menyerang dengan senjatamu!`);
