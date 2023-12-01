@@ -18,8 +18,8 @@ console.log(calculateMultiply(3, 3));
 console.log("Soal No-3");
 
 
-function processSentence(){
-    return `nama saya ${name} umur saya ${age} tahun. Saya tinggal di ${address} dan hobby saya ${hobby}`;
+function processSentence(name, age, address, hobby) {
+  return `nama saya ${name} umur saya ${age} tahun. Saya tinggal di ${address} dan hobby saya ${hobby}`;
 }
 let name = "Agus";
 let age = 30;
