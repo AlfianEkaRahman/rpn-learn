@@ -1,12 +1,11 @@
 function cariMean(arr) {
-  arr.sort((a, b) => a - b);
-  const middleIndex = Math.floor(arr.length / 2);
-
-  if(arr.length % 2 === 0) {
-    return (arr[middleIndex - 1] + arr[middleIndex]) / 2
-  }else {
-    return arr[middleIndex];
+  let sum = 0;
+  for(let i = 0; i < arr.length; i++){
+    sum += arr[i];
   }
+  let devide = sum / arr.length
+  let hasil = Math.ceil(devide);
+  return hasil
 }
 
 console.log(cariMean([1, 2, 3, 4, 5])); // 3
