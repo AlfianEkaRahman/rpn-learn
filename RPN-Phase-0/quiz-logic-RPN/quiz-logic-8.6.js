@@ -4,7 +4,7 @@ function cariMean(arr) {
     sum += arr[i];
   }
   let devide = sum / arr.length
-  let hasil = Math.ceil(devide);
+  let hasil = Math.round(devide);
   return hasil
 }
 
